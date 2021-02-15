@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+.cards{
+    font-family: Arial;
+    display: flex;
+    flex-wrap: wrap;
+    width: 880px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin: 10px 10px;
+    font-size: 15px;
+}
+.card-item{
+    margin-bottom: 10px;
+}
+#card-image{
+    width: 130px;
+    height: 200px;
+}
+#card-title{
+    text-align: center;
+}
+#card-price{
+    text-align: center;
+    font-weight: 700;
+}
+#card-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 120px;
+    color: white;
+    border-radius: 20px;
+    background-color: #f13c6e;
+    cursor: pointer;
+}
+
+/* ________________________________FORM_________________________________ */
+.buy{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.buy-form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    width: 500px;
+    height: 300px
+}
+.buy-form__item{
+    margin: 15px;
+}
+.buy-form__close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    margin: 10px;
+    color: red;
+    font-weight: 700;
+}
+.m1{
+    margin: 10px;
+}
